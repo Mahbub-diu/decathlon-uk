@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Decathlon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
+        integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/responsive.css">
+</head>
+
+<body>
+    <section class="top-header">
+        <div class="stack">
+            <nav class="menu">
+                <button type="button" class="menu-button">
+                    <svg aria-hidden="true" class="svg-icon " viewBox="0 0 32 32">
+                        <path
+                            d="M3 7h18a1 1 0 010 2H3a1 1 0 110-2zm0 8h22a1 1 0 010 2H3a1 1 0 010-2zm0 8h26a1 1 0 010 2H3a1 1 0 010-2z">
+                        </path>
+                    </svg>
+                    <span>menu</span>
+                </button>
+                <h1 class="logo">
+                    <a href="/" tabindex="0" aria-label="" class="">
+                        <svg role="img" aria-label="Decathlon" class="decathlon-logo " fill="#0082c3"
+                            viewBox="0 0 176 44">
+                            <title>Decathlon</title>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M134.9 28C138.1 28 140.8 25.4 140.8 22.1C140.8 18.8 138.2 16.2 134.9 16.2C131.7 16.2 129 18.9 129 22.1C129 25.4 131.7 28 134.9 28ZM17 15.9H20.8C22.4 15.9 23.9 17.1 24.2 18.7C24.6 19.7 24.8 21 24.8 22.1C24.8 23.3 24.6 24.5 24.2 25.6C23.9 27.2 22.4 28.3 20.8 28.3H17V15.9ZM71 25H67.7L71 20.5V25ZM176 44V0H0V43.9L176 44ZM44.2 28V33.6H30.7V25.7C29.3 30 25.3 33.2 20.8 33.6H10.6V10.6H20.8C25.4 11 29.4 14.2 30.8 18.5V10.6H44.2V16.3H37.2V19.2H43.5V24.8H37.2V28H44.2ZM70.3 10.5H76.7V33.5H70.8V30H64C61.8 32.2 58.8 33.5 55.7 33.5C49.4 33.5 44.2 28.3 44.2 22C44.2 15.7 50 10.4 56.3 10.4C59.7 10.4 63.1 11.9 65.4 14.3L62.5 18.8C61 17.3 58.8 16.4 56.7 16.4C56.55 16.4 56.375 16.425 56.2 16.45C56.025 16.475 55.85 16.5 55.7 16.5C52.6 16.5 50.1 19 50.1 22.1C50.1 25.2 52.6 27.7 55.7 27.7C57.6 27.7 59.4 26.8 60.4 25.2L70.3 10.5ZM77.7 10.5H92.7H92.8V15.9H88.2V33.5H82.3V15.8H77.7V10.5ZM106.4 10.5H112.3V33.5H106.4V24.4H99.4V33.5H93.5V10.5H99.4V19.1H106.4V10.5ZM159.5 10.5H165.4L165.5 33.6H160.1L152 22.4V33.5H146.1V25.1C144.7 30 140.2 33.5 135 33.5C132 33.5 129.1 32.3 126.9 30.3V33.5H113.2V10.5H119.2V27.9H125C124 26.1 123.4 24 123.4 22C123.4 15.7 128.6 10.5 134.9 10.5C140 10.5 144.7 14 146 18.9V10.5H151.4L159.5 21.2V10.5ZM162.822 40.4229L163.304 39.9207L164.868 42H165.769L163.818 39.3853L165.566 37.5093H164.632L163.233 38.9868L162.822 39.4807V35.625H162.054V42H162.822V40.4229ZM148.342 41.2073C148.137 41.3733 147.897 41.4563 147.624 41.4563C147.228 41.4563 146.924 41.3166 146.71 41.0371C146.497 40.7576 146.391 40.3592 146.391 39.8418V39.6965C146.391 39.1653 146.497 38.7599 146.71 38.4805C146.926 38.1982 147.229 38.0571 147.619 38.0571C147.91 38.0571 148.153 38.1512 148.35 38.3394C148.549 38.5247 148.66 38.7627 148.682 39.0532H149.408C149.386 38.5718 149.208 38.1803 148.873 37.8787C148.541 37.5771 148.123 37.4263 147.619 37.4263C147.21 37.4263 146.854 37.5203 146.553 37.7085C146.254 37.8966 146.024 38.1609 145.864 38.5012C145.703 38.8416 145.623 39.2303 145.623 39.6675V39.7961C145.623 40.5045 145.803 41.0634 146.163 41.4729C146.525 41.8796 147.012 42.083 147.624 42.083C147.928 42.083 148.216 42.0138 148.487 41.8755C148.761 41.7371 148.979 41.5518 149.143 41.3193C149.306 41.0869 149.394 40.842 149.408 40.5847H148.682C148.66 40.8337 148.546 41.0413 148.342 41.2073ZM143.714 41.2654C143.636 41.3539 143.598 41.4646 143.598 41.5974C143.598 41.7247 143.636 41.8312 143.714 41.917C143.794 42.0028 143.913 42.0457 144.071 42.0457C144.229 42.0457 144.347 42.0028 144.428 41.917C144.511 41.8312 144.552 41.7247 144.552 41.5974C144.552 41.4646 144.511 41.3539 144.428 41.2654C144.347 41.1768 144.229 41.1326 144.071 41.1326C143.913 41.1326 143.794 41.1768 143.714 41.2654ZM150.068 39.7131C150.068 39.2732 150.154 38.8775 150.325 38.5261C150.5 38.1747 150.74 37.9036 151.048 37.7126C151.357 37.5217 151.71 37.4263 152.106 37.4263C152.717 37.4263 153.211 37.6379 153.588 38.0613C153.967 38.4846 154.156 39.0477 154.156 39.7505V39.8044C154.156 40.2416 154.072 40.6345 153.903 40.9832C153.737 41.329 153.498 41.5988 153.185 41.7925C152.875 41.9862 152.518 42.083 152.114 42.083C151.506 42.083 151.012 41.8713 150.633 41.448C150.256 41.0247 150.068 40.4644 150.068 39.7671V39.7131ZM150.84 39.8044C150.84 40.3025 150.955 40.7023 151.185 41.0039C151.417 41.3055 151.727 41.4563 152.114 41.4563C152.504 41.4563 152.814 41.3041 153.044 40.9998C153.274 40.6926 153.388 40.2638 153.388 39.7131C153.388 39.2206 153.271 38.8222 153.036 38.5178C152.803 38.2107 152.493 38.0571 152.106 38.0571C151.727 38.0571 151.421 38.2079 151.189 38.5095C150.956 38.8111 150.84 39.2428 150.84 39.8044ZM155.252 41.2654C155.174 41.3539 155.136 41.4646 155.136 41.5974C155.136 41.7247 155.174 41.8312 155.252 41.917C155.332 42.0028 155.451 42.0457 155.609 42.0457C155.767 42.0457 155.886 42.0028 155.966 41.917C156.049 41.8312 156.09 41.7247 156.09 41.5974C156.09 41.4646 156.049 41.3539 155.966 41.2654C155.886 41.1768 155.767 41.1326 155.609 41.1326C155.451 41.1326 155.332 41.1768 155.252 41.2654ZM160.133 41.5559C159.834 41.9073 159.395 42.083 158.817 42.083C158.338 42.083 157.973 41.9447 157.721 41.668C157.472 41.3885 157.347 40.9762 157.344 40.4312V37.5093H158.112V40.4104C158.112 41.0911 158.388 41.4314 158.942 41.4314C159.528 41.4314 159.918 41.2128 160.112 40.7756V37.5093H160.88V42H160.149L160.133 41.5559Z">
+                            </path>
+                        </svg>
+                    </a>
+                </h1>
+                <div class="search-bar" id="menu-searchbar">
+                    <div class="search-form">
+                        <form action="">
+                            <input type="text" class="form-control" autocomplete="off">
+                            <!-- placeholder will be typeing effect, need to develope  -->
+                            <p class="typewriter">search for
+                                <span data-text="a brand., a sport., product."></span>
+                            </p>
+                            <!-- placeholder will be typeing effect, need to develope  -->
+                            <button class="nav-search-btn">
+                                <svg aria-hidden="true" class="svg-icon search-icon" viewBox="0 0 32 32">
+                                    <path
+                                        d="M18.329 19.743A9.959 9.959 0 0112 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10a9.959 9.959 0 01-2.257 6.329l9.964 9.964a1 1 0 01-1.414 1.414l-9.964-9.964zM12 20a8 8 0 100-16 8 8 0 000 16z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="tool-zone">
+                    <ul class="nav">
+                        <li class="nav-item help">
+                            <a class="nav-link" href="#">
+                                <svg aria-hidden="true" class="svg-icon tool-icon" viewBox="0 0 32 32">
+                                    <path
+                                        d="M16 30C8.268 30 2 23.732 2 16S8.268 2 16 2s14 6.268 14 14-6.268 14-14 14zm0-2c6.627 0 12-5.373 12-12S22.627 4 16 4 4 9.373 4 16s5.373 12 12 12zm0-6a1 1 0 110-2 1 1 0 010 2zm1-4a1 1 0 01-2 0v-1c0-.822.462-1.238 1.33-1.672.119-.06.605-.288.723-.347.709-.355.947-.606.947-.981 0-1.446-.554-2-2-2s-2 .554-2 2a1 1 0 01-2 0c0-2.551 1.45-4 4-4s4 1.449 4 4c0 1.334-.737 2.111-2.053 2.77-.146.072-.632.301-.722.347-.095.047-.17.087-.225.12V18z">
+                                    </path>
+                                </svg>
+                                <span>contact us</span>
+                            </a>
+                            <div class="nav-dropdown-main">
+                                <div class="card">
+                                    <div class="card-header contact-header">need help?</div>
+                                    <div class="card-body">
+                                        <ul class="navdrop-ul">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="icon">
+                                                        <svg aria-hidden="true" class="svg-icon tool-icon"
+                                                            viewBox="0 0 32 32">
+                                                            <path
+                                                                d="M16 30C8.268 30 2 23.732 2 16S8.268 2 16 2s14 6.268 14 14-6.268 14-14 14zm0-2c6.627 0 12-5.373 12-12S22.627 4 16 4 4 9.373 4 16s5.373 12 12 12zm0-6a1 1 0 110-2 1 1 0 010 2zm1-4a1 1 0 01-2 0v-1c0-.822.462-1.238 1.33-1.672.119-.06.605-.288.723-.347.709-.355.947-.606.947-.981 0-1.446-.554-2-2-2s-2 .554-2 2a1 1 0 01-2 0c0-2.551 1.45-4 4-4s4 1.449 4 4c0 1.334-.737 2.111-2.053 2.77-.146.072-.632.301-.722.347-.095.047-.17.087-.225.12V18z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div class="d-block">
+                                                            <strong>find answer in our</strong>
+                                                            <div class="text-underline">freequenty asked questions</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="icon">
+                                                        <svg aria-hidden="true" class="svg-icon tool-icon"
+                                                            viewBox="0 0 32 32">
+                                                            <path
+                                                                d="M16 30C8.268 30 2 23.732 2 16S8.268 2 16 2s14 6.268 14 14-6.268 14-14 14zm0-2c6.627 0 12-5.373 12-12S22.627 4 16 4 4 9.373 4 16s5.373 12 12 12zm0-6a1 1 0 110-2 1 1 0 010 2zm1-4a1 1 0 01-2 0v-1c0-.822.462-1.238 1.33-1.672.119-.06.605-.288.723-.347.709-.355.947-.606.947-.981 0-1.446-.554-2-2-2s-2 .554-2 2a1 1 0 01-2 0c0-2.551 1.45-4 4-4s4 1.449 4 4c0 1.334-.737 2.111-2.053 2.77-.146.072-.632.301-.722.347-.095.047-.17.087-.225.12V18z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div class="d-block">
+
+                                                            <div class="text-underline"> <b>contact our </b> customer
+                                                                service</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg aria-hidden="true" class="svg-icon tool-icon" viewBox="0 0 32 32">
+                                    <path
+                                        d="M10.906 8.225v.808h1.165v-.446h-.64v-.37h.555V7.78h-.556v-.332h.641V7h-1.165v.815a.94.94 0 00-.298-.573c-.222-.2-.46-.243-.8-.243h-.732v2.035h.804c.3 0 .503-.04.731-.252a.957.957 0 00.295-.557zm10.312.11v.699h.525V7.9l.799 1.134h.46V6.999h-.524v1.13l-.787-1.13h-.473v.693a1.052 1.052 0 00-.271-.434 1.053 1.053 0 00-.738-.302c-.294 0-.55.1-.752.3a1.016 1.016 0 00-.314.739c0 .223.054.42.16.589h-.47V6.999h-.521v2.034h1.132v-.27c.202.207.46.314.762.314a1.053 1.053 0 001.012-.742zM21 24.52l7-1.346V4H4v23.79l7.095-1.365A.996.996 0 0111 26v-8a1 1 0 011-1h8a1 1 0 011 1v6.52zm-2 .385V19h-6v7c0 .02 0 .04-.002.059L19 24.905zM3 2h26a1 1 0 011 1v21a1 1 0 01-.811.982l-26 5A1 1 0 012 29V3a1 1 0 011-1zm5 7.998V6h16v3.998H8zm6.464-3s-.674 1.146-.74 1.25c-.077.12-.245.313-.498.31-.412-.006-.567-.29-.567-.546 0-.29.232-.54.535-.546.342-.007.597.32.597.32l.267-.43s-.303-.412-.859-.4c-.838.02-1.082.721-1.082 1.046 0 .685.528 1.027.958 1.069.62.06.96-.345.96-.345s-.004-.001.017-.002c.125-.001.455.002.455.002v.304h.504V6.997h-.547zm.054 1.302h-.27l.27-.46v.46zm1.01.734h.523V7.485h.407V7H15.12v.486h.407v1.549zm2.1-.779v.779h.524V6.999h-.524v.773h-.539v-.773h-.523v2.035h.523v-.779h.54zm2.578.315a.561.561 0 01-.543-.57.54.54 0 011.08 0c0 .334-.24.57-.537.57zM10.4 8.01c0 .4-.19.577-.59.577H9.6v-1.15h.208c.385 0 .593.206.593.572z">
+                                    </path>
+                                </svg>
+                                <span>find a store</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg aria-hidden="true" class="svg-icon tool-icon" viewBox="0 0 32 32">
+                                    <path
+                                        d="M7.164 29.986a1 1 0 01-1.148-1.165l2-11A1 1 0 019 17h14a1 1 0 01.97.757l2 8a1 1 0 01-.806 1.23l-18 3zm1.074-2.206l15.53-2.588L22.218 19H9.835l-1.597 8.78zM16 15c-3.314 0-6-2.91-6-6.5S12.686 2 16 2s6 2.91 6 6.5-2.686 6.5-6 6.5zm0-2c2.172 0 4-1.98 4-4.5S18.172 4 16 4c-2.172 0-4 1.98-4 4.5s1.828 4.5 4 4.5z">
+                                    </path>
+                                </svg>
+                                <span>my account</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <div class="menu-cart">
+                        <a href="" class="cart-button">
+                            <svg aria-hidden="true" class="svg-icon " viewBox="0 0 32 32">
+                                <path
+                                    d="M7.873 6.008A1.01 1.01 0 018 6h21a1 1 0 011 1v11a1 1 0 01-.836.986l-18 3a1 1 0 01-1.128-.72L5.318 4.281l-2.002.668a1 1 0 01-.632-1.898l3-1a1 1 0 011.28.681l.91 3.276zM8.427 8l3.296 11.864L28 17.153V8H8.427zM16 29a3 3 0 110-6 3 3 0 010 6zm9 0a3 3 0 110-6 3 3 0 010 6zm0-2a1 1 0 100-2 1 1 0 000 2zm-9 0a1 1 0 100-2 1 1 0 000 2z">
+                                </path>
+                            </svg>
+                            <span class="blue-badge">0</span>
+                            <span class="basket">my basket</span>
+                        </a>
+                        <div class="nav-dropdown-main">
+                            <div class="card">
+                                <div class="card-header">my basket</div>
+                                <div class="card-body">
+                                    lore aa sdfjl lafd asd fws
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="slider-mian">
+        <div class="container-fluid px-0">
+            <div class="row g-0">
+                <div class="col-12 ">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider-bg-top">
+
+                                    <div class="slider-bg-main">
+                                        <div class="slider-bg" style="background-image: url('/dist/images/blue2.jpg');">
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-contants-main">
+                                        <div class="slider-text">
+                                            <div class="text-box">
+                                                <h2>lets play this summer</h2>
+                                                <button class="cta cta-v2">Shop Now</button>
+                                            </div>
+                                        </div>
+                                        <div class="slider-right-img">
+                                            <div class="text-skew">
+                                                <div class="final-skew">
+                                                    <div class="image-box" style="background-image: url('./dist/images/01.jpg');">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-bg-top">
+
+                                    <div class="slider-bg-main">
+                                        <div class="slider-bg" style="background-image: url('/dist/images/blue2.jpg');">
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-contants-main">
+                                        <div class="slider-text">
+                                            <div class="text-box">
+                                                <h2>lets play this summer</h2>
+                                                <button class="cta cta-v2">Shop Now</button>
+                                            </div>
+                                        </div>
+                                        <div class="slider-right-img">
+                                            <div class="text-skew">
+                                                <div class="final-skew">
+                                                    <div class="image-box" style="background-image: url('./dist/images/2.webp');">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-button-next"></div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/src/js/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="/src/js/custom.js"></script>
+
+</body>
+
+</html>

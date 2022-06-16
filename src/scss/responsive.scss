@@ -1,0 +1,41 @@
+@media(min-width:600px) {
+    .menu {
+        flex-wrap: nowrap;
+
+        .search-bar {
+            position: relative;
+            width: auto;
+            transition: none;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-top: 0;
+            border-bottom: 0;
+            margin-right: 10px;
+
+            .search-form {
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+        }
+
+        
+    }
+}
+
+@media (min-width:900px){
+    .menu-cart {
+        a.cart-button {
+            min-width: 90px;
+            max-width: 100px;
+        }
+    }
+}
+
+@media (min-width:1366px) {
+    .slider-text{
+        width: 34.125%;
+    }
+}
