@@ -419,30 +419,6 @@ h2.section-title {
         width: 100%;
         height: 100%;
 
-        // .swiper-pagination-bullets{
-        //     position: relative;
-        //     &::before{
-        //         position: absolute;
-        //         font-family: "Font Awesome 6 Free";
-        //          font-weight: 900;
-        //          left: 0;
-        //          top: 0;
-        //         content: '\f053';
-        //         cursor: pointer;
-        //         font-style: italic;
-        //     }
-        //     &::after{
-        //         position: absolute;
-        //         font-family: "Font Awesome 6 Free";
-        //          font-weight: 900;
-        //          right: 0;
-        //          top: 0;
-        //         content: '\f054';
-        //         cursor: pointer;
-        //         font-style: italic;
-        //     }
-        // }
-
         .swiper-pagination-bullet {
 
             @include pagination-bullet;
@@ -778,7 +754,7 @@ h2.section-title {
                 position: relative;
                 z-index: 2;
                 top: 30px;
-             
+
 
                 [class*='col-'] {
                     padding-left: 5px;
@@ -786,7 +762,7 @@ h2.section-title {
                 }
 
                 .card {
-                   
+
                     @include spotlite-card;
 
                     .sale-tag {
@@ -804,6 +780,18 @@ h2.section-title {
                     .price-cartidge {
                         @include price-cartidge;
 
+                        // .price-info-addon{
+                        //     font-size: .6875em;
+                        //     line-height: 1.1;
+                        //     margin-bottom: .2rem;
+                        //     .prev-price{
+                        //         font-weight: 700;
+                        //         text-decoration: line-through;
+                        //     }
+                        //     .disc-amt{
+                        //         color: #ee000c;font-weight: 700;
+                        //     }
+                        // }
                         .active-price {
 
                             @include active-price;
@@ -813,7 +801,7 @@ h2.section-title {
                             }
 
                             .vh {
-                              
+
                                 @include active-price-vh;
                             }
                         }
@@ -828,7 +816,7 @@ h2.section-title {
                             }
 
                             .vh {
-                               
+
                                 @include new-price-vh;
                             }
 
@@ -840,12 +828,12 @@ h2.section-title {
                         @include sale-tag;
 
                         span.first {
-                          
+
                             @include span-first;
                         }
 
                         span.price-2 {
-                          
+
                             @include span-price-2;
                         }
                     }
@@ -854,19 +842,19 @@ h2.section-title {
                         @include sale-tag;
 
                         span.best {
-                           
+
                             @include span-best;
                         }
 
                         span.rate {
-                           
+
                             @include span-rate;
 
                         }
                     }
 
                     .image-holder {
-                        
+
                         @include spot-card-image-holder;
 
                         img {
@@ -881,12 +869,12 @@ h2.section-title {
                         margin-top: 10px;
 
                         .card-title {
-                          
+
                             @include spot-card-title;
                         }
 
                         p {
-                           
+
                             @include spot-desc;
                         }
 
@@ -926,12 +914,13 @@ h2.section-title {
             flex-basis: 50%;
             position: relative;
             left: -20px;
+
             a.spotlite-bg {
-               
+
                 @include spotlite-bg;
 
                 &::after {
-                   
+
                     @include spotlight-after;
 
                 }
@@ -942,12 +931,12 @@ h2.section-title {
                     @include flex-right-details;
 
                     h3 {
-                        
-                        @include  flex-right-details-title;
+
+                        @include flex-right-details-title;
                     }
 
                     .cta-v2-reverse {
-                       
+
                         @include cta-v2-reverse;
                     }
                 }
@@ -958,17 +947,332 @@ h2.section-title {
     }
 }
 
-.spotlite-reverse{
-    .spotlit-flex-main{
-        .flex-left{
-            .flex-left-box{
+.spotlite-reverse {
+    .spotlit-flex-main {
+        .flex-left {
+            .flex-left-box {
                 left: -20px;
             }
         }
-        .flex-right{
+
+        .flex-right {
             left: 0;
         }
     }
 }
 
 //   spotlight end here  
+
+
+// top brands start from here 
+
+.topbrands-main {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+
+    .title-flex-main {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            font-size: 26px;
+            color: #1a2a34;
+            font-style: normal;
+            line-height: 1.27;
+            text-transform: none;
+            font-weight: 700;
+            margin: 20px 0px;
+
+        }
+
+        a.shops-more {
+            cursor: pointer;
+            color: #007dbc;
+            margin: 0;
+            -webkit-transition: color 0.2s ease;
+            -o-transition: color 0.2s ease;
+            transition: color 0.2s ease;
+            font-size: 14px;
+        }
+    }
+
+    .brand-box {
+        overflow: hidden;
+
+        a.brand-url {
+
+
+            @include a-brand-url;
+
+            &:hover {
+                background-color: #d9dde1;
+            }
+
+            .image-container {
+                width: 150px;
+
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+// top brands end here 
+
+
+// gift card section start from here 
+
+.gift-card-main {
+
+    padding: 20px 0;
+
+    .container {
+        max-width: 1440px;
+    }
+
+    [class*=col-] {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .gift-box {
+        background-color: #f6f7f7;
+        @include common-radious;
+        min-height: 270px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .text-box {
+            max-width: 50%;
+            margin-left: 32px;
+            padding: 0;
+
+            span {
+                font-weight: bold;
+                text-transform: capitalize;
+            }
+
+            h2 {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 8px;
+                margin-bottom: 32px;
+                text-transform: capitalize;
+            }
+
+            a.buy-gift {
+
+                @include buy-gift-btn;
+            }
+
+            .d-logo {
+                img {
+                    width: 48px;
+                    height: 48px;
+                    margin-bottom: 6px;
+                }
+            }
+
+            a.playstore-btn {
+                img {
+                    margin-right: 16px;
+                    height: 34px;
+                    transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+                    -webkit-transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+                    -moz-transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+                    -ms-transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+                    -o-transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+                }
+            }
+        }
+
+        .image-box {
+            max-width: 50%;
+            flex-grow: 1;
+            margin-top: 0;
+            -webkit-box-flex: 1;
+            text-align: right;
+
+            img {
+                max-height: 270px;
+                max-width: 100%;
+                vertical-align: text-bottom;
+            }
+
+        }
+    }
+}
+
+
+// gift card end here 
+
+
+// store locator start from here 
+
+.storelocation-main {
+    @include storelocator-bg;
+    display: flex;
+    align-items: center;
+
+    &::after {
+
+        @include storelocator-bg-after;
+    }
+
+    .container {
+        max-width: 1120px;
+    }
+
+    .store-box {
+
+        @include store-box;
+
+        h3 {
+            font-size: 25px;
+            text-transform: uppercase;
+            font-style: italic;
+            margin: 0 0 15px;
+            line-height: 1.15;
+            font-weight: bold;
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 14px;
+            line-height: 1.15;
+        }
+
+        .cta-alt {
+            @include cta;
+            background-color: #007dbc;
+            color: #fff;
+            min-height: auto;
+            margin-top: 0;
+            font-size: 14px;
+
+            i {
+                padding-left: 15px;
+            }
+        }
+    }
+}
+
+// store locator end here 
+
+// promise section start from here 
+
+.promise-main {
+    background: linear-gradient(180deg, #00689d 0%, #007dbc 100%);
+    padding: 16px 0px;
+
+
+    .container {
+        max-width: 1216px;
+    }
+
+    a.promise-link {
+        margin: 15px 10px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+
+        img {
+            width: 35px;
+            padding-right: 5px;
+        }
+    }
+}
+
+
+// promise section end here 
+
+// social footer start from here 
+
+.social-footer {
+    padding: 16px 0px;
+
+    .container {
+        max-width: 1216px;
+    }
+
+    .excelelnt-box {
+        a {
+            font-size: 18px;
+            text-transform: capitalize;
+            color: $text-color;
+            font-weight: 500;
+
+            svg {
+                fill: #00b67a !important;
+                height: 14px;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+
+// social footer end here 
+
+
+
+.footer-main {
+
+    background-color: #eff1f3;
+    color: #43505c;
+    position: relative;
+    min-height: 200px;
+    padding: 16px 0;
+
+    .container {
+        max-width: 1216px;
+    }
+
+    .footer-flex-main {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #afafaf;
+        padding-bottom: 30px;
+
+        .flex-box {
+            flex-basis: 20%;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            h3 {
+                margin: 0;
+                font-size: 16px;
+                padding-top: 8px;
+                text-transform: capitalize;
+                font-weight: 700;
+                padding-bottom: 16px;
+            }
+
+            .footer-navs {
+                ul.nav {
+                    padding-left: 0;
+                    .nav-link{
+                        padding-left: 0;
+                        padding-top: 4px;
+                        padding-bottom: 4px;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #43505c;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+        }
+    }
+}

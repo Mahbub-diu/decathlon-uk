@@ -647,6 +647,7 @@
     max-height: 100px;
     position: relative;
 }
+
 @mixin spot-card-title {
     font-size: 14px;
     text-transform: uppercase;
@@ -682,7 +683,7 @@
 }
 
 @mixin spot-desc {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 17px;
     color: #1a2a34;
     font-weight: 400;
@@ -714,4 +715,74 @@
     text-align: center;
     position: relative;
     margin-bottom: 10px;
+}
+
+@mixin tripfourzero-radious {
+    border-radius: 4px 4px 4px 0;
+    -webkit-border-radius: 4px 4px 4px 0;
+    -moz-border-radius: 4px 4px 4px 0;
+    -ms-border-radius: 4px 4px 4px 0;
+    -o-border-radius: 4px 4px 4px 0;
+}
+
+@mixin a-brand-url {
+    position: relative;
+    display: flex;
+    height: 90px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 250ms ease;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+    border: 1px solid #d9dde1;
+    @include tripfourzero-radious;
+}
+
+@mixin buy-gift-btn {
+    background-color: transparent;
+    border: 1px solid $logo-color;
+    height: 30px;
+    min-height: auto;
+    padding: 5px 18px;
+    text-transform: uppercase;
+    color: $logo-color;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@mixin storelocator-bg {
+   
+    height: 380px;
+    background: url(/dist/images/store.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@mixin storelocator-bg-after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.18);
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+@mixin store-box {
+    background: #fff;
+    
+    text-align: center;
+     width: 450px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 15%);
+    padding: 15px 20px;
 }
