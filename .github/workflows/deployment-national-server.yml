@@ -1,0 +1,26 @@
+name: Deployment to National Server on Port 8002
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Executing remote command on national server at /var/www/moments
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          USERNAME: ${{ secrets.SSH_USERNAME }}
+          PORT: ${{ secrets.SSH_PORT }}
+          PASSWORD: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            cd /var/www/decathlon-uk
+            git checkout master
+            git pull
+
