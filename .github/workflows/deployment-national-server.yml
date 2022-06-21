@@ -2,7 +2,7 @@ name: Deployment to National Server on Port 8002
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ master ]
 
 jobs:
   build:
