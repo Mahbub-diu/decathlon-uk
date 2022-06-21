@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Decathlon</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
-        integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="dist/css/style.css">
@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- top header start from here  -->
     <section class="top-header">
         <div class="stack">
             <nav class="menu">
@@ -161,17 +162,18 @@
         </div>
     </section>
 
+    <!-- slider start from here  -->
     <section class="slider-mian">
         <div class="container-fluid px-0">
             <div class="row g-0">
-                <div class="col-12 ">
+                <div class="col-12 px-0">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="slider-bg-top">
 
                                     <div class="slider-bg-main">
-                                        <div class="slider-bg" style="background-image: url('dist/images/blue2.jpg');">
+                                        <div class="slider-bg" style="background-image: url('/dist/images/blue2.jpg');">
                                         </div>
                                     </div>
 
@@ -179,13 +181,14 @@
                                         <div class="slider-text">
                                             <div class="text-box">
                                                 <h2>lets play this summer</h2>
-                                                <button class="cta cta-v2">Shop Now</button>
+                                                <button class="cta cta-v2">Shop Now </button>
                                             </div>
                                         </div>
                                         <div class="slider-right-img">
                                             <div class="text-skew">
                                                 <div class="final-skew">
-                                                    <div class="image-box" style="background-image: url('dist/images/01.jpg');">
+                                                    <div class="image-box"
+                                                        style="background-image: url('./dist/images/01.jpg');">
 
                                                     </div>
                                                 </div>
@@ -198,7 +201,7 @@
                                 <div class="slider-bg-top">
 
                                     <div class="slider-bg-main">
-                                        <div class="slider-bg" style="background-image: url('dist/images/blue2.jpg');">
+                                        <div class="slider-bg" style="background-image: url('/dist/images/blue2.jpg');">
                                         </div>
                                     </div>
 
@@ -206,13 +209,14 @@
                                         <div class="slider-text">
                                             <div class="text-box">
                                                 <h2>lets play this summer</h2>
-                                                <button class="cta cta-v2">Shop Now</button>
+                                                <button class="cta cta-v2">Shop Now </button>
                                             </div>
                                         </div>
                                         <div class="slider-right-img">
                                             <div class="text-skew">
                                                 <div class="final-skew">
-                                                    <div class="image-box" style="background-image: url('dist/images/2.webp');">
+                                                    <div class="image-box"
+                                                        style="background-image: url('./dist/images/2.webp');">
 
                                                     </div>
                                                 </div>
@@ -221,26 +225,1629 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                        </div>
-                        <div class="swiper-button-next"></div>
 
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                    
+                        </div>
+                        <!-- <div class="custom-arrow-prev fa-solid fa-arrow-right"></div> -->
+
+                        <div class="custom-arrow-next fa-light fa-arrow-right-long"></div>
+                        <div class="custom-pagignation">
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home category start from here  -->
+
+    <section class="homecategory-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <div class="category">
+                        <a href="#" class="category-link">
+                            <div class="image-box">
+                                <img src="/dist/images/cat1.png" alt="">
+                            </div>
+                            <div class="category-title">
+                                Mens
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <div class="category">
+                        <a href="#" class="category-link">
+                            <div class="image-box">
+                                <img src="/dist/images/cat2.png" alt="">
+                            </div>
+                            <div class="category-title">
+                                woMens
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <div class="category">
+                        <a href="#" class="category-link">
+                            <div class="image-box">
+                                <img src="/dist/images/cat3.png" alt="">
+                            </div>
+                            <div class="category-title">
+                                kids
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <div class="category">
+                        <a href="#" class="category-link">
+                            <div class="image-box">
+
+                            </div>
+                            <div class="category-title">
+                                accessories
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <div class="category">
+                        <a href="#" class="category-link eco">
+                            <div class="image-box">
+                                <img src="/dist/images/eco.png" alt="">
+                            </div>
+                            <div class="category-title">
+                                ecodesign
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <div class="category">
+                        <a href="#" class="category-link sale">
+                            <div class="image-box">
+                                <img src="/dist/images/percent.png" alt="">
+                            </div>
+                            <div class="category-title">
+                                Mens
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="src/js/jquery-3.6.0.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1dist/js/bootstrap.bundle.min.js"
+    <!-- most viewd start from here  -->
+
+    <section class="most-viewed-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2 class="section-title">Most Searched Products</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-box">
+                        <a href="#" class="product-image">
+                            <img src="/dist/images/travelbags.jpg" alt="">
+                        </a>
+                        <h4 class="view-title">Travel bags and Holdalls</h4>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-box">
+                        <a href="#" class="product-image">
+                            <img src="/dist/images/sup.jpg" alt="">
+                        </a>
+                        <h4 class="view-title">Travel bags and Holdalls</h4>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-box">
+                        <a href="#" class="product-image">
+                            <img src="/dist/images/tents.jpg" alt="">
+                        </a>
+                        <h4 class="view-title">Travel bags and Holdalls</h4>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-box">
+                        <a href="#" class="product-image">
+                            <img src="/dist/images/weights_gym.jpg" alt="">
+                        </a>
+                        <h4 class="view-title">Travel bags and Holdalls</h4>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-box">
+                        <a href="#" class="product-image">
+                            <img src="/dist/images/travelbags.jpg" alt="">
+                        </a>
+                        <h4 class="view-title">Travel bags and Holdalls</h4>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-box">
+                        <a href="#" class="product-image">
+                            <img src="/dist/images/travelbags.jpg" alt="">
+                        </a>
+                        <h4 class="view-title">Travel bags and Holdalls</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- spotlight start from here  -->
+
+    <section class="spotlite-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="spotlit-flex-main">
+                        <div class="flex-left">
+                            <div class="flex-left-box">
+                                <div class="row g-0">
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                            <div class="sale-tag">
+                                                <span>sales</span>
+                                            </div>
+                                            <div class="price-cartidge">
+                                                <div class="active-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="first-tag">
+                                            <span class="first">first</span>
+                                            <span class="price-2">price</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="best-tag">
+                                            <span class="best">best</span>
+                                            <span class="rate">rated</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                            <div class="sale-tag">
+                                                <span>sales</span>
+                                            </div>
+                                            <div class="price-cartidge">
+                                                <div class="active-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="first-tag">
+                                            <span class="first">first</span>
+                                            <span class="price-2">price</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="best-tag">
+                                            <span class="best">best</span>
+                                            <span class="rate">rated</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-right">
+                            <a href="#" class="spotlite-bg" style="background-image: url('/dist/images/spot.jpg');">
+                                <div class="flex-right-details">
+                                    <h3>our watersports range</h3>
+                                    <button class="cta-v2-reverse">see entire selection</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="spotlite-main spotlite-reverse">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="spotlit-flex-main">
+                        <div class="flex-right">
+                            <a href="#" class="spotlite-bg" style="background-image: url('/dist/images/h.jpg');">
+                                <div class="flex-right-details">
+                                    <h3>hiking</h3>
+                                    <button class="cta-v2-reverse">see entire selection</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex-left">
+                            <div class="flex-left-box">
+                                <div class="row g-0">
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                            <div class="sale-tag">
+                                                <span>sales</span>
+                                            </div>
+                                            <div class="price-cartidge">
+                                                <div class="active-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="first-tag">
+                                            <span class="first">first</span>
+                                            <span class="price-2">price</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="best-tag">
+                                            <span class="best">best</span>
+                                            <span class="rate">rated</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                            <div class="sale-tag">
+                                                <span>sales</span>
+                                            </div>
+                                            <div class="price-cartidge">
+                                                <div class="active-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="first-tag">
+                                            <span class="first">first</span>
+                                            <span class="price-2">price</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="best-tag">
+                                            <span class="best">best</span>
+                                            <span class="rate">rated</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="spotlite-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="spotlit-flex-main">
+                        <div class="flex-left">
+                            <div class="flex-left-box">
+                                <div class="row g-0">
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                            <div class="sale-tag">
+                                                <span>sales</span>
+                                            </div>
+                                            <div class="price-cartidge">
+                                                <div class="active-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="first-tag">
+                                            <span class="first">first</span>
+                                            <span class="price-2">price</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="best-tag">
+                                            <span class="best">best</span>
+                                            <span class="rate">rated</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                            <div class="sale-tag">
+                                                <span>sales</span>
+                                            </div>
+                                            <div class="price-cartidge">
+                                                <div class="active-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="first-tag">
+                                            <span class="first">first</span>
+                                            <span class="price-2">price</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="image-holder">
+                                                <img src="dist/images/8511825.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">itiwit</h5>
+                                                <p>X100 10 ft INFLATABLE TOURING STAND UP PADDLE BOARD - </p>
+                                                <div class="spot-rating">
+                                                    <ul class="nav">
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">
+                                                              <svg class="full svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-full-0-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="87%"></stop><stop stop-color="#fdc62e" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                  3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                  4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                  7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                  6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                            </a>
+                                                          </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3&quot;);"><linearGradient id="gradient-half-4-80e84de2-882e-46f5-92db-12db75d611f3"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="51%"></stop><stop stop-color="#d4d7d9" offset="51%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">
+                                                            <svg class="half svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673&quot;);"><linearGradient id="gradient-half-4-17e91e3d-9f80-42c9-a323-41bfc0b46673"><stop stop-color="#fdc62e" offset="0%"></stop><stop stop-color="#fdc62e" offset="20%"></stop><stop stop-color="#d4d7d9" offset="20%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                          </a>
+                                                        </li>
+                                                       <li class="nav-item">
+                                                        <a href="" class="nav-link">
+                                                            <svg class="empty svelte-1eztogk" viewBox="0 0 32 32" widht="1.1em" height="1em" style="fill: url(&quot;#gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e&quot;);"><linearGradient id="gradient-empty-4-9f2cd445-6bef-4597-a171-9b9fa45d6a6e"><stop stop-color="#d4d7d9" offset="0%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="87%"></stop><stop stop-color="#d4d7d9" offset="100%"></stop></linearGradient><path d="m16 26.0943175-8.59386153
+                                                                3.819494c-.76761529.3411624-1.5883458-.3588243-1.37259057-1.1706584l2.35327244-8.8547885-6.0989377-6.1863042c-.58190844-.5902442-.23437487-1.5915311.58808263-1.6943383l7.49636683-.9370458
+                                                                4.7535106-8.55631923c.3810053-.68580943 1.3673093-.68580943 1.7483146 0l4.7535106 8.55631923
+                                                                7.4963668.9370458c.8224575.1028072 1.1699911 1.1040941.5880827 1.6943383l-6.0989377
+                                                                6.1863042 2.3532724 8.8547885c.2157552.8118341-.6049753 1.5118208-1.3725906 1.1706584z"></path></svg>
+                                                        </a>
+                                                       </li>
+                                                       <li class="nav-item">
+                                                        <a   class="nav-link"><span>(100)</span></a>
+                                                       </li>
+                                                       
+                                                      </ul>
+                                                     
+                                                </div>
+                                            </div>
+                                          <div class="best-tag">
+                                            <span class="best">best</span>
+                                            <span class="rate">rated</span>
+                                          </div>
+
+                                            <div class="price-cartidge">
+                                                <div class="new-price">
+                                                    $199
+                                                    <small>.99</small>
+                                                    <span content="GBP" class="vh" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-right">
+                            <a href="#" class="spotlite-bg" style="background-image: url('/dist/images/c.jpg');">
+                                <div class="flex-right-details">
+                                    <h3>cycling</h3>
+                                    <button class="cta-v2-reverse">see entire selection</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="/src/js/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-    <script src="src/js/custom.js"></script>
+    <script src="/src/js/custom.js"></script>
 
 </body>
 

@@ -52,17 +52,19 @@ var swiper = new Swiper(".mySwiper", {
         delay: 5000,
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-       
+        nextEl: ".custom-arrow-next",
+        // prevEl: ".custom-arrow-prev",
+
     },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
         renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
+            return '<span class="' + className + '">' + '0' + (index + 1) + "</span>";
         },
     },
 });
 
-  // home slider end here 
+// home slider end here 
+
+console.clear()

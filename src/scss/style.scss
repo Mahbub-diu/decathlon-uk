@@ -30,6 +30,23 @@ a {
     }
 }
 
+.fa,
+.fa-brands,
+.fa-duotone,
+.fa-light,
+.fa-regular,
+.fa-solid,
+.fa-thin,
+.fab,
+.fad,
+.fal,
+.far,
+.fas,
+.fat {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
 .form-control {
     &:focus {
         box-shadow: none;
@@ -45,6 +62,26 @@ button {
     background-image: none;
     color: inherit;
     cursor: pointer;
+}
+
+[class*='col-'] {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+h2.section-title {
+    font-size: 26px;
+    color: #1a2a34;
+    font-style: normal;
+    line-height: 1.27;
+    text-transform: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
 }
 
 //  top header start from here 
@@ -373,9 +410,7 @@ button {
 
 }
 
-
 // top header end here 
-
 
 .slider-mian {
     @include slider-main;
@@ -384,25 +419,75 @@ button {
         width: 100%;
         height: 100%;
 
+        // .swiper-pagination-bullets{
+        //     position: relative;
+        //     &::before{
+        //         position: absolute;
+        //         font-family: "Font Awesome 6 Free";
+        //          font-weight: 900;
+        //          left: 0;
+        //          top: 0;
+        //         content: '\f053';
+        //         cursor: pointer;
+        //         font-style: italic;
+        //     }
+        //     &::after{
+        //         position: absolute;
+        //         font-family: "Font Awesome 6 Free";
+        //          font-weight: 900;
+        //          right: 0;
+        //          top: 0;
+        //         content: '\f054';
+        //         cursor: pointer;
+        //         font-style: italic;
+        //     }
+        // }
+
         .swiper-pagination-bullet {
 
             @include pagination-bullet;
+
+
+
         }
 
         .swiper-pagination-bullet-active {
             color: $text-color;
-           
+
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
-        .swiper-pagination-bullets.swiper-pagination-horizontal,
-        .swiper-pagination-custom,
-        .swiper-pagination-fraction {
-            width: 70%;
-            bottom: 40px;
-            text-align: right;
-            @include translatex-center;
+        .custom-pagignation {
 
+            .swiper-horizontal>.swiper-pagination-bullets,
+            .swiper-pagination-bullets.swiper-pagination-horizontal,
+            .swiper-pagination-custom,
+            .swiper-pagination-fraction {
+                width: 390px;
+                bottom: 40px;
+                text-align: right;
+                left: 74%;
+                transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+
+                padding: 0 40px;
+
+
+            }
+        }
+
+        .custom-arrow-prev {
+            display: none;
+            @include custom-arrow;
+        }
+
+        .custom-arrow-next {
+
+            right: 13%;
+
+            @include custom-arrow;
         }
     }
 
@@ -513,7 +598,7 @@ button {
                             transform-origin: top left;
 
                             .image-box {
-                                // background: url(/dist/images/01.jpg);
+
 
                                 @include slider-image-skew-shape;
 
@@ -535,30 +620,355 @@ button {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // slider part end here 
+
+// home category start from here 
+
+
+.homecategory-main {
+    margin: 40px 0px;
+
+    .container {
+        max-width: 1600px;
+
+        .category {
+
+
+            a.category-link {
+                position: relative;
+                display: flex;
+                align-items: center;
+                height: 100%;
+                font-size: 14px;
+                @include common-radious;
+                background-color: #eff1f3;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-style: italic;
+                transition: background-color 250ms ease;
+                white-space: nowrap;
+                overflow: hidden;
+                -o-text-overflow: ellipsis;
+                text-overflow: ellipsis;
+                color: #252527;
+
+                .image-box {
+                    width: 95px;
+                    height: 95px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .category-title {
+                    -webkit-box-flex: 1;
+                    -ms-flex-positive: 1;
+                    flex-grow: 1;
+                    padding: 8px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    -o-text-overflow: ellipsis;
+                    text-overflow: ellipsis;
+                }
+
+                &:hover {
+                    background-color: #d9dde1;
+                }
+            }
+
+            a.category-link.eco {
+                background-color: #4d6f56;
+                border-color: #4d6f56;
+                color: #fff;
+            }
+
+            a.category-link.sale {
+                background-color: $sale-bg;
+                border-color: $sale-bg;
+                color: #fff;
+            }
+        }
+
+    }
+}
+
+
+// home category end here 
+
+
+// most serached product start from here 
+
+.most-viewed-main {
+    margin: 40px 0px;
+
+    .single-box {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: italic;
+
+        a.product-image {
+            position: relative;
+            @include common-radious;
+            display: block;
+
+            &::before {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                @include common-radious;
+                -webkit-transition: opacity ease-in 250ms;
+                -o-transition: opacity ease-in 250ms;
+                transition: opacity ease-in 250ms;
+                background-color: #001018;
+                opacity: 0;
+            }
+
+            &:hover::before {
+                width: 100%;
+                height: 100%;
+                opacity: 0.2;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 8px 8px 8px 0;
+            }
+
+
+        }
+
+        h4.view-title {
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            font-style: italic;
+            margin-top: 8px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+// most serached product end here 
+
+//   spotlight start from here  
+
+.spotlite-main {
+    margin-bottom: 45px;
+
+    .container {
+        max-width: 1216px;
+    }
+
+    .spotlit-flex-main {
+        display: flex;
+        flex-wrap: wrap;
+
+        .flex-left {
+            flex-basis: 50%;
+
+            .flex-left-box {
+                position: relative;
+                z-index: 2;
+                top: 30px;
+             
+
+                [class*='col-'] {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+
+                .card {
+                   
+                    @include spotlite-card;
+
+                    .sale-tag {
+                        @include sale-tag;
+
+                        span {
+
+                            background-color: rgb(226, 12, 24);
+                            color: rgb(255, 255, 255);
+                            @include sale-tag-span;
+
+                        }
+                    }
+
+                    .price-cartidge {
+                        @include price-cartidge;
+
+                        .active-price {
+
+                            @include active-price;
+
+                            small {
+                                font-size: 80%;
+                            }
+
+                            .vh {
+                              
+                                @include active-price-vh;
+                            }
+                        }
+
+                        .new-price {
+
+
+                            @include new-price;
+
+                            small {
+                                font-size: 80%;
+                            }
+
+                            .vh {
+                               
+                                @include new-price-vh;
+                            }
+
+
+                        }
+                    }
+
+                    .first-tag {
+                        @include sale-tag;
+
+                        span.first {
+                          
+                            @include span-first;
+                        }
+
+                        span.price-2 {
+                          
+                            @include span-price-2;
+                        }
+                    }
+
+                    .best-tag {
+                        @include sale-tag;
+
+                        span.best {
+                           
+                            @include span-best;
+                        }
+
+                        span.rate {
+                           
+                            @include span-rate;
+
+                        }
+                    }
+
+                    .image-holder {
+                        
+                        @include spot-card-image-holder;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                    }
+
+                    .card-body {
+                        padding: 0;
+                        margin-top: 10px;
+
+                        .card-title {
+                          
+                            @include spot-card-title;
+                        }
+
+                        p {
+                           
+                            @include spot-desc;
+                        }
+
+                        .spot-rating {
+
+
+                            .nav {
+                                justify-content: center;
+
+
+                                .nav-item {
+                                    .nav-link {
+                                        padding: 0 2px;
+
+                                        svg {
+                                            width: 14px;
+                                            height: 14px;
+                                        }
+
+                                        span {
+                                            font-size: 10px;
+                                            color: #62707f;
+                                            margin-left: 4px;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .flex-right {
+            flex-basis: 50%;
+            position: relative;
+            left: -20px;
+            a.spotlite-bg {
+               
+                @include spotlite-bg;
+
+                &::after {
+                   
+                    @include spotlight-after;
+
+                }
+
+
+                .flex-right-details {
+
+                    @include flex-right-details;
+
+                    h3 {
+                        
+                        @include  flex-right-details-title;
+                    }
+
+                    .cta-v2-reverse {
+                       
+                        @include cta-v2-reverse;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.spotlite-reverse{
+    .spotlit-flex-main{
+        .flex-left{
+            .flex-left-box{
+                left: -20px;
+            }
+        }
+        .flex-right{
+            left: 0;
+        }
+    }
+}
+
+//   spotlight end here  
