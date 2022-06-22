@@ -1645,5 +1645,46 @@ h2.section-title {
   color: #43505c;
   text-transform: capitalize;
 }
+.footer-main .download-app {
+  padding: 30px 0px;
+  border-bottom: 1px solid #afafaf;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-main .download-app .box h5 {
+  color: #43505c;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.footer-main .download-app .box a.playstore-btn img {
+  margin-right: 16px;
+  height: 34px;
+}
+.footer-main .download-app .box p {
+  color: #43505c;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.footer-main .download-app .box p a {
+  color: rgb(0, 130, 195);
+  text-decoration: underline;
+}
+.footer-main .copyright-section {
+  padding: 15px 0px;
+  border-bottom: 1px solid #afafaf;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-main .copyright-section .box {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.footer-main .copyright-section .box a {
+  color: rgb(0, 130, 195);
+}
 
 /*# sourceMappingURL=style.css.map */
